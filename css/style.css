@@ -33,9 +33,9 @@ h1 {
 }
 
 h2 {
-  font-size: 5.1em;
+  font-size: 4.5em;
   line-height: 1em;
-  letter-spacing: .03em;
+  letter-spacing: .02em;
   margin-bottom: 2px;
 }
 
@@ -62,13 +62,17 @@ p {
 }
 
 span {
-  display: inline-block;
+  display: inline-flex;
   font-size: 1em;
   line-height: 1em;
-  letter-spacing: .35em;
+  letter-spacing: .3em;
   vertical-align: top;
   padding-top: 10px;
 }
+#flex {
+  display: flex;
+
+} 
 
 img {
   display: inline-block;
